@@ -1,13 +1,10 @@
+
 const About = () => {
 
-    return (
-        <>
-            <a href="/home">Home</a>
-            <a href="/about">About</a>
-            <h1>About</h1>
-            <p>This is sample react router problem</p>
-        </>
-    )
+    return <>
+        <a href="/home">Home</a>
+        <a href="/about">About</a>
+        <h1>This is the about Page</h1>
+    </>
 }
-
 export default About;

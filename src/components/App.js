@@ -1,12 +1,13 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './../styles/App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 
 const App = () => {
   return (
     <div>
+      {/* Do not remove the main div */}
       <BrowserRouter>
         <Routes>
           <Route path="/home" component={Home} />
@@ -17,4 +18,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App
